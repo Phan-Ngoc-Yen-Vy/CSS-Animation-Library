@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 150px;
 }
 #menu-top .header-logo img {
-    width: auto; 
+    width: auto;
     height: 60px;
     float: left;
 }
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(141, 140, 233, 0.295);
     width: 26%;
     float: left;
-    min-height: 900px;
+    min-height: 850px;
     margin-left: 120px;
 }
 #left .column img {
@@ -91,9 +91,9 @@ h1, h2, h3, h4, h5, h6 {
 #main #right {
     background: rgba(141, 140, 233, 0.295);
     width: 50%;
-    min-height: 900px;
+    min-height: 850px;
     float: right;
-    padding-right: 70px;
+    padding-left: 40px;
     margin-right: 120px;
 }
 #content {
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #footer {
     background: rgba(191, 212, 67, 0.295);
-    height: 200px; 
+    height: 250px; 
     width: 100%;                                                                                                                                                        
     text-align: left;
     clear:both;
@@ -140,32 +140,57 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     float: left;
 }
-.css-spinner {
-    margin: 20px 60px;
+#main #right .css-spinner {
+    margin: 100px 70px;
     display: inline-block;
 }
 @media (max-width: 768px) {
     body {
       background-size: cover;
     }
-  .css-spinner {
-    margin: 10px 30px;
+    #main #right .css-spinner {
+    margin: 70px 30px;
     }
 }
-.css-spinners {
-    width: 100%;
-    margin: auto;
+#main #right .css-spinners {
+    width: 170%;
+    margin: 200px 20px;
+    line-height: 50px;
     transition: color 0.5s ease-in-out;
 }
-.css-spinner > .name {
+#main #right .css-spinner > .name {
     opacity: 0;
     transition: opacity 0.3s ease-in;
     color: #fff;
-  }
-.css-spinner:hover > .name {
+}
+#main #right .css-spinners .css-spinner i {
+    font-family: 'ldi' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: 0;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#main #right .css-spinner:hover > .name {
     opacity: 1;
 }
-.clickable {
+#main #right .clickable {
     cursor: pointer !important;
 }
-
+.lds-circle {
+    display: inline-block;
+    transform: translateZ(1px);
+}
+.lds-circle > div {
+    display: inline-block;
+    width: 64px;
+    height: 60px;
+    margin: -3px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
