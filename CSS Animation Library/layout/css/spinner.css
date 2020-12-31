@@ -395,8 +395,7 @@
   background: currentColor;
   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
-.lds-heart div:after,
-.lds-heart div:before {
+.lds-heart div:after,.lds-heart div:before {
   content: " ";
   position: absolute;
   display: block;
