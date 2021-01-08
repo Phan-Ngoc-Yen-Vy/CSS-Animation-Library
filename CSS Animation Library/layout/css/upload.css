@@ -1,0 +1,80 @@
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.lded.lded-icon {
+    min-height: 205px;
+}
+.lded {
+    font-size: 16px;
+}
+.lded {
+    font-size: 17px;
+}
+.lded {
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.content {
+    font-family: Roboto;
+}
+.lded.lded-icon .viewer {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 5;
+}
+.lded .viewer {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACpJREFUeNpiPHXqlBoDfnALnyQTA4Vg1IDBYAALoXgGArXRQBz2BgAEGADTJQSAKWck1wAAAABJRU5ErkJggg==);
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 300px;
+    margin: 15px auto;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.lded .viewer>.inner, .lded .viewer>.inner>.centered {
+    position: absolute;
+    top: -500px;
+    left: -500px;
+    bottom: -500px;
+    right: -500px;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.lded .viewer>.inner {
+    outline: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.lded .hint-3d {
+    display: none;
+}
+i {
+    font-family: 'ldi' !important;
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    vertical-align: 0;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
